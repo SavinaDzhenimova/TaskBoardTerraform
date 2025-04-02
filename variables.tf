@@ -1,23 +1,3 @@
-variable "storage_resorce_group_name" {
-  type        = string
-  description = "The name of the storage resource group"
-}
-
-variable "storage_account_name" {
-  type        = string
-  description = "The name of the storage acoount"
-}
-
-variable "storage_container_name" {
-  type        = string
-  description = "The name of the storage container"
-}
-
-variable "storage_account_key" {
-  type        = string
-  description = "The storage account key"
-}
-
 variable "resourse_group_name" {
   type        = string
   description = "The name of the resource group"
